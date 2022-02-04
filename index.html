@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YOGA WITH VIBHOR SAINI TOSYAN</title>
+</head>
+
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Balsamiq+Sans:ital@1&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="CSS toutorial/yoga.css">
+<style>
+    body {
+        font-family: 'Anton', sans-serif;
+        /* font-family: 'Balsamiq Sans', cursive; */
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background-image: url('img/img/yoga-3053487_1920.jpg');
+        background-size: cover;
+        height: 1134px;
+    }
+
+    .left {
+        display: inline-block;
+        /* border: 2px solid red; */
+        position: absolute;
+        top: 20px;
+        left: 24px;
+
+    }
+
+    .mid {
+        display:block;
+        width: 48%;
+        height: 52px;
+        margin: 18px auto;
+    
+        /* border: 2px solid green; */
+
+    }
+
+    .right {
+        position: absolute;
+        top: 29px;
+        right: 8px;
+        display: inline-block;
+        /* border: 2px solid rgb(39, 0, 0); */
+
+    }
+
+
+    .navbar {
+        display: inline-block;
+        padding-top: 0px;
+
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 23px;
+
+    }
+
+    .navbar li a {
+        color: rgb(12, 11, 11);
+        text-decoration: none;
+        margin: 34px 25px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: rgb(20, 15, 6);
+
+    }
+
+    .left img {
+        width: 61%;
+        height: 57px;
+        padding-left: 27px;
+
+
+
+    }
+
+    .left div {
+        text-align: center;
+        font-size: 19px;
+        color: rgb(13, 13, 68);
+        /* padding-left: 33px; */
+        border-radius: 10px;
+        background-color: cadetblue;
+    }
+
+    .btn {
+        font-family: 'Anton', sans-serif;
+        /* font-family: 'Balsamiq Sans', cursive; */
+        margin: 0 10px;
+        padding: 5px 5px;
+        border-radius: 13px;
+        font-size: 16px;
+        border-color: blanchedalmond;
+        color: white;
+        background-color: black;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: rgb(189, 108, 51);
+    }
+
+    .container {
+        border: 2px solid rgb(10, 10, 10);
+        padding: 30px 14px;
+        margin: 110px 43px;
+        width: 43%;
+        border-radius: 28px;
+    }
+
+    .container h1 {
+        text-align: center;
+        color: rgb(24, 13, 6);
+        /* padding-top: px; */
+        margin-top: 23px;
+    }
+
+    .container button {
+        display: block;
+        width: 261px;
+        margin: 20px auto;
+
+    }
+
+    .form-group input {
+        display: block;
+        padding: 3px;
+        margin: 5px auto;
+        font-size: 21px;
+        text-align: center;
+        width: 254px;
+        border: 2px solid brown;
+        border-radius: 7px;
+        font-family: 'Anton', sans-serif;
+    }
+</style>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="img/img/woman-5485664.png" alt="">
+            <div>YOGA WITH VIBHOR</div>
+        </div>
+        <div class="mid">
+            <!-- Mid box for navbar -->
+            <ul class="navbar">
+                <li> <a href="#" class="active">Home</a></li>
+                <li> <a href="#">About Us</a></li>
+                <li> <a href="#">Fitness Calculator</a></li>
+                <li> <a href="#">Contact Us</a></li>
+            </ul>
+
+        </div>
+        <div class="right">
+            <button class="btn">Call Us Now</button>
+            <button class="btn">Email us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join the best yoga center in saharanpur.</h1>
+        <form action="naaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Name">
+                <input type="text" name="" placeholder="Enter your Age">
+                <input type="text" name="" placeholder="Enter your Gender">
+                <input type="text" name="" placeholder="Enter your Locality">
+
+                <button class="btn">Submit</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
